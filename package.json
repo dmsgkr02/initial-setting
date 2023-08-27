@@ -1,0 +1,24 @@
+{
+  "name": "initial-setting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "husky install",
+    "format": "prettier --write --cache .",
+    "lint": "eslint --cache ."
+  },
+  "lint-staged": {
+    "*.{js,ts}": "npm run format"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.2"
+  }
+}
