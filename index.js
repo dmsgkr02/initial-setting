@@ -6,3 +6,5 @@ const foo = x => {
 
 const a = 'lint';
 foo(a);
+
+foo(a);
